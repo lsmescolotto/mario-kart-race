@@ -1,103 +1,111 @@
-<h1>Desafio de projeto Node.JS: Mario Kart.JS</h1>
+<h1>Node.JS Project Challenge: Mario Kart.JS</h1>
 
-  <table>
-        <tr>
-            <td>
-                <img src="./assets/images/header.gif" alt="Mario Kart" width="200">
-            </td>
-            <td>
-                <b>Objetivo:</b>
-                <p>Mario Kart é uma série de jogos de corrida desenvolvida e publicada pela Nintendo. Nosso desafio será criar uma lógica de um jogo de vídeo game para simular corridas de Mario Kart, levando em consideração as regras e mecânicas abaixo.</p>
-            </td>
-        </tr>
-    </table>
+<table>
+    <tr>
+        <td>
+            <img src="./assets/images/header.gif" alt="Mario Kart" width="200">
+        </td>
+        <td>
+            <b>Objective:</b>
+            <p>Mario Kart is a series of racing games developed and published by Nintendo. Our challenge will be to create the logic of a video game to simulate Mario Kart races, taking into account the rules and mechanics below.</p>
+        </td>
+    </tr>
+</table>
 
 <h2>Players</h2>
-      <table style="border-collapse: collapse; width: 800px; margin: 0 auto;">
-        <tr>
-            <td style="border: 1px solid black; text-align: center;">
-                <p>Mario</p>
-                <img src="./assets/images/mario.gif" alt="Mario Kart" width="60" height="60">
-            </td>
-            <td style="border: 1px solid black; text-align: center;">
-                <p>Velocidade: 4</p>
-                <p>Manobrabilidade: 3</p>
-                <p>Poder: 3</p>
-            </td>
-             <td style="border: 1px solid black; text-align: center;">
-                <p>Peach</p>
-                <img src="./assets/images/peach.gif" alt="Mario Kart" width="60" height="60">
-            </td>
-            <td style="border: 1px solid black; text-align: center;">
-                <p>Velocidade: 3</p>
-                <p>Manobrabilidade: 4</p>
-                <p>Poder: 2</p>
-            </td>
-              <td style="border: 1px solid black; text-align: center;">
-                <p>Yoshi</p>
-                <img src="./assets/images/yoshi.gif" alt="Mario Kart" width="60" height="60">
-            </td>
-            <td style="border: 1px solid black; text-align: center;">
-                <p>Velocidade: 2</p>
-                <p>Manobrabilidade: 4</p>
-                <p>Poder: 3</p>
-            </td>
-        </tr>
-        <tr>
-            <td style="border: 1px solid black; text-align: center;">
-                <p>Bowser</p>
-                <img src="./assets/images/bowser.gif" alt="Mario Kart" width="60" height="60">
-            </td>
-            <td style="border: 1px solid black; text-align: center;">
-                <p>Velocidade: 5</p>
-                <p>Manobrabilidade: 2</p>
-                <p>Poder: 5</p>
-            </td>
-            <td style="border: 1px solid black; text-align: center;">
-                <p>Luigi</p>
-                <img src="./assets/images/luigi.gif" alt="Mario Kart" width="60" height="60">
-            </td>
-            <td style="border: 1px solid black; text-align: center;">
-                <p>Velocidade: 3</p>
-                <p>Manobrabilidade: 4</p>
-                <p>Poder: 4</p>
-            </td>
-            <td style="border: 1px solid black; text-align: center;">
-                <p>Donkey Kong</p>
-                <img src="./assets/images/dk.gif" alt="Mario Kart" width="60" height="60">
-            </td>
-            <td style="border: 1px solid black; text-align: center;">
-                <p>Velocidade: 2</p>
-                <p>Manobrabilidade: 2</p>
-                <p>Poder: 5</p>
-            </td>
-        </tr>
-    </table>
+<table style="border-collapse: collapse; width: 800px; margin: 0 auto;">
+    <tr>
+        <td style="border: 1px solid black; text-align: center;">
+            <p>Mario</p>
+            <img src="./assets/images/mario.gif" alt="Mario Kart" width="60" height="60">
+        </td>
+        <td style="border: 1px solid black; text-align: center;">
+            <p>Speed: 4</p>
+            <p>Maneuverability: 3</p>
+            <p>Power: 3</p>
+        </td>
+        <td style="border: 1px solid black; text-align: center;">
+            <p>Peach</p>
+            <img src="./assets/images/peach.gif" alt="Mario Kart" width="60" height="60">
+        </td>
+        <td style="border: 1px solid black; text-align: center;">
+            <p>Speed: 3</p>
+            <p>Maneuverability: 4</p>
+            <p>Power: 2</p>
+        </td>
+        <td style="border: 1px solid black; text-align: center;">
+            <p>Yoshi</p>
+            <img src="./assets/images/yoshi.gif" alt="Mario Kart" width="60" height="60">
+        </td>
+        <td style="border: 1px solid black; text-align: center;">
+            <p>Speed: 2</p>
+            <p>Maneuverability: 4</p>
+            <p>Power: 3</p>
+        </td>
+    </tr>
+    <tr>
+        <td style="border: 1px solid black; text-align: center;">
+            <p>Bowser</p>
+            <img src="./assets/images/bowser.gif" alt="Mario Kart" width="60" height="60">
+        </td>
+        <td style="border: 1px solid black; text-align: center;">
+            <p>Speed: 5</p>
+            <p>Maneuverability: 2</p>
+            <p>Power: 5</p>
+        </td>
+        <td style="border: 1px solid black; text-align: center;">
+            <p>Luigi</p>
+            <img src="./assets/images/luigi.gif" alt="Mario Kart" width="60" height="60">
+        </td>
+        <td style="border: 1px solid black; text-align: center;">
+            <p>Speed: 3</p>
+            <p>Maneuverability: 4</p>
+            <p>Power: 4</p>
+        </td>
+        <td style="border: 1px solid black; text-align: center;">
+            <p>Donkey Kong</p>
+            <img src="./assets/images/dk.gif" alt="Mario Kart" width="60" height="60">
+        </td>
+        <td style="border: 1px solid black; text-align: center;">
+            <p>Speed: 2</p>
+            <p>Maneuverability: 2</p>
+            <p>Power: 5</p>
+        </td>
+    </tr>
+</table>
 
 <p></p>
 
-<h3>🕹️ Regras & mecânicas:</h3>
+<h3>🕹️ Rules & Mechanics:</h3>
 
-<b>Jogadores:</b>
+<b>Players:</b>
 
-<input type="checkbox" id="jogadores-item" />
-<label for="jogadores-item">O Computador deve receber dois personagens para disputar a corrida em um objeto cada</label>
+<input type="checkbox" id="players-item" />
+<label for="players-item">The Computer must receive two characters to compete in the race, each in its own object</label>
 
-<b>Pistas:</b>
+<b>Tracks:</b>
 
 <ul>
-  <li><input type="checkbox" id="pistas-1-item" /> <label for="pistas-1-item">Os personagens irão correr em uma pista aleatória de 5 rodadas</label></li>
-  <li><input type="checkbox" id="pistas-2-item" /> <label for="pistas-2-item">A cada rodada, será sorteado um bloco da pista que pode ser uma reta, curva ou confronto</label>
+  <li><input type="checkbox" id="tracks-1-item" /> <label for="tracks-1-item">The characters will race on a random track of 5 rounds</label></li>
+  <li><input type="checkbox" id="tracks-2-item" /> <label for="tracks-2-item">In each round, a track section will be randomly selected, which can be a straight, curve, or confrontation</label>
     <ul>
-      <li><input type="checkbox" id="pistas-2-1-item" /> <label for="pistas-2-1-item">Caso o bloco da pista seja uma RETA, o jogador deve jogar um dado de 6 lados e somar o atributo VELOCIDADE, quem vencer ganha um ponto</label></li>
-      <li><input type="checkbox" id="pistas-2-2-item" /> <label for="pistas-2-2-item">Caso o bloco da pista seja uma CURVA, o jogador deve jogar um dado de 6 lados e somar o atributo MANOBRABILIDADE, quem vencer ganha um ponto</label></li>
-      <li><input type="checkbox" id="pistas-2-3-item" /> <label for="pistas-2-3-item">Caso o bloco da pista seja um CONFRONTO, o jogador deve jogar um dado de 6 lados e somar o atributo PODER, quem perder, perde um ponto</label></li>
-      <li><input type="checkbox" id="pistas-2-3-item" /> <label for="pistas-2-3-item">Nenhum jogador pode ter pontuação negativa (valores abaixo de 0)</label></li>
+      <li><input type="checkbox" id="tracks-2-1-item" /> <label for="tracks-2-1-item">If the track section is a STRAIGHT, the player must roll a 6-sided die and add the SPEED attribute; the winner gets a point</label></li>
+      <li><input type="checkbox" id="tracks-2-2-item" /> <label for="tracks-2-2-item">If the track section is a CURVE, the player must roll a 6-sided die and add the MANEUVERABILITY attribute; the winner gets a point</label></li>
+      <li><input type="checkbox" id="tracks-2-3-item" /> <label for="tracks-2-3-item">If the track section is a CONFRONTATION, the player must roll a 6-sided die and add the POWER attribute; the loser loses a point</label></li>
+      <li><input type="checkbox" id="tracks-2-3-item" /> <label for="tracks-2-3-item">No player can have a negative score (below 0)</label></li>
     </ul>
   </li>
 </ul>
 
-<b>Condição de vitória:</b>
+<b>Victory Condition:</b>
 
-<input type="checkbox" id="vitoria-item" />
-<label for="vitoria-item">Ao final, vence quem acumulou mais pontos</label>
+<input type="checkbox" id="victory-item" />
+<label for="victory-item">At the end, the player with the most points wins</label><br>
+
+<b>To play the game:</b>
+
+<ul>
+  <li>Clone the repository</li>
+  <li>Run "npm install" in your CLI to install all dependencies</li>
+  <li>Run "node src/index.js" in your CLI</li>
+</ul>
